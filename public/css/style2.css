@@ -1,0 +1,74 @@
+/*estilos comunes*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.navbar {
+    background-color: red !important;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+
+.nav-link {
+    color: white;
+}
+
+
+.navbar-brand {
+    color: white;
+}
+
+/*estilo carta*/
+
+main {
+    padding: 20px;
+}
+
+.card {
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    border: red solid 4px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.card-img-top {
+    max-width: 50%;
+    height: 60%;
+    margin: 10px auto;
+}
+
+/*estilos footer*/
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
